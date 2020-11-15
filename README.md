@@ -44,7 +44,7 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
 
     ``` C:\data\alee\ujian> code . ```
 
-- pastikan anda berada di-*branch* yang baru anda buat dengan cara lihat dipojok kiri bawah *vscode* dan anda akan melihat nama *branch* yang baru anda buat atau anda bisa menggunakan perintah : ``` git branch ``` di terminal atau cmd untuk menlihat semua daftar *branch* yang ada di folder *project* anda, *branch* yang dipakai saat ini ditandai dengan warna hijau dan *nama-*branch*
+- pastikan anda berada di-*branch* yang baru anda buat dengan cara lihat dipojok kiri bawah *vscode* dan anda akan melihat nama *branch* yang baru anda buat atau anda bisa menggunakan perintah : ``` git branch ``` di terminal atau cmd untuk melihat semua daftar *branch* yang ada di folder *project* anda, *branch* yang dipakai saat ini ditandai dengan warna hijau dan *nama-*branch*
 - buatlah sebuah folder dengan nama : NAMA-ANDA-PROGRAM, e.x. ALEE-JCWM15
     
     ![guide_3](./assets/guide_03.jpg)
@@ -60,7 +60,7 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
 - simpan perubahan yang terjadi di *git* dengan cara : ```git add nama-file``` atau ```git add .``` untuk menyimpan semua perubahan yang terjadi sekaligus
 - kemudian lakukan ```commit``` : ```git commit -m "masukan pesan commit"```, e.x. "alee : ujian fundamental JCWM15"
 - *push branch* baru tempat anda mengerjakan soal : ``` git push origin nama-branch ```
-- buka GitHub anda dan lihat repositori hasil *forked* anda. **PASTIKAN!** bahwa *branch* yang ada *push* sudah ada di GitHub
+- buka GitHub anda dan lihat repositori hasil *forked* anda. **PASTIKAN!** bahwa *branch* yang anda *push* sudah ada di GitHub
 - jika sudah ada, maka akan ada *warning* untuk melakukan ```compare & pull request```
     
     ![guide_4](./assets/guide_04.jpg)
