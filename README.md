@@ -21,11 +21,9 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
 
 ## Exam Guide
 - sebelum mengerjakan soal, lakukan ***Fork*** untuk repositori ini
-
     ![guide_1](./assets/guide_01.jpg)
 
 - kemudian *clone* repositori hasil *Forked* ke komputer kalian dengan cara *copy link forked respository* anda
-
     ![guide_2](./assets/guide_02.jpg)
 
 - buka terminal atau *cmd* dengan mengarah pada folder tempat anda akan menyimpan hasil *clone* dari repositori yang sudah anda *forked*, kemudian jalankan perintah ```git clone``` dan *paste link forked repository* anda
@@ -46,7 +44,6 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
 
 - pastikan anda berada di-*branch* yang baru anda buat dengan cara lihat dipojok kiri bawah *vscode* dan anda akan melihat nama *branch* yang baru anda buat atau anda bisa menggunakan perintah : ``` git branch ``` di terminal atau cmd untuk melihat semua daftar *branch* yang ada di folder *project* anda, *branch* yang dipakai saat ini ditandai dengan warna hijau dan *nama-*branch*
 - buatlah sebuah folder dengan nama : NAMA-ANDA-PROGRAM, e.x. ALEE-JCWM15
-    
     ![guide_3](./assets/guide_03.jpg)
 
 - kerjakanlah semua soal ujian didalam folder tersebut
@@ -62,7 +59,6 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
 - *push branch* baru tempat anda mengerjakan soal : ``` git push origin nama-branch ```
 - buka GitHub anda dan lihat repositori hasil *forked* anda. **PASTIKAN!** bahwa *branch* yang anda *push* sudah ada di GitHub
 - jika sudah ada, maka akan ada *warning* untuk melakukan ```compare & pull request```
-    
     ![guide_4](./assets/guide_04.jpg)
 
 - lakukan *pull request* dan pastikan bahwa
@@ -73,7 +69,6 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
     ![guide_5](./assets/guide_05.jpg)
 
 - jika *pull request* berhasil dan tidak terjadi konflik maka akan muncul info berikut ini
-    
     ![gudie_6](./assets/guide_06.jpg)
 
 ## Selamat Mengerjakan Ujian ☺
