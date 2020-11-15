@@ -1,7 +1,7 @@
 # Purwadhika
 Sebelum anda mengerjakan soal ujian, pastikan anda memiliki akun **GitHub** dan ***software git*** sudah terinstall dilaptop. Anda dapat memastikan bahwa **git** sudah terinstall dilaptop anda dengan menjalankan perintah berikut ini diterminal atau ***cmd*** : ``` git --version ```. Jika muncul *versi git* maka komputer anda sudah terinstal *git*.
 
-Soal ujian dapat anda temukan didalam repositori ini atau anda dapat melihatnya melalui *link* berikut ini :
+Soal ujian dapat anda temukan didalam repositori ini atau anda dapat melihatnya melalui *[link](https://github.com/alee0510/JCWM15_FUND_EXAM/blob/master/soal_ujian_JCWM_FUND.pdf)* berikut ini :
 
 Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam mengerjakan soal-soal ujian berikut ini.
 
@@ -54,7 +54,7 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
 - simpan perubahan yang terjadi di *git* dengan cara : ```git add nama-file``` atau ```git add .``` untuk menyimpan semua perubahan yang terjadi sekaligus
 - kemudian lakukan ```commit``` : ```git commit -m "masukan pesan commit"```, e.x. "alee : ujian fundamental JCWM15"
 - *push branch* baru tempat anda mengerjakan soal : ``` git push origin nama-branch ```
-- buka GitHub anda dan lihat repositori hasil *forked* anda. **PASTIKAN!**, bahwa *branch* yang ada *push* sudah ada di GitHub
+- buka GitHub anda dan lihat repositori hasil *forked* anda. **PASTIKAN!** bahwa *branch* yang ada *push* sudah ada di GitHub
 - jika sudah ada, maka akan ada *warning* untuk melakukan ```compare & pull request```
 ![guide_4](./assets/guide_04.jpg)
 - lakukan *pull request* dan pastikan bahwa
