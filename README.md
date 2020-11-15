@@ -1,0 +1,74 @@
+<style>
+
+</style>
+# Purwadhika
+Sebelum anda mengerjakan soal ujian, pastikan anda memiliki akun github dan software git sudah terinstall dilaptop. Anda dapat memastikan bahwa git sudah terinstall dilaptop anda dengan menjalankan perintah berikut ini diterminal atau ***cmd*** : ``` git --version ```. Jika muncul versi git maka komputer anda sudah terinstal git.
+
+Soal ujian dapat anda temukan didalam repositori ini atau anda dapat melihatnya melalui link berikut ini :
+
+Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam mengerjakan soal-soal ujian berikut ini.
+
+## Term & Condition
+- ujian akan dilaksanakan selama 3 jam 20 menit
+    - 10 menit setup
+    - 3 jam mengerjakan soal
+    - 10 menit pull request
+- selama mengerjakan ujian, siswa wajib menyalakan video di zoom (khusus untuk kelas online) sampai ujian selesai
+- dilarang bekerjasama dalam mengerjakan soal ujian
+- dilarang memberikan jawaban atau meminta jawaban dari teman atau pihak lain
+- jika ada pertanyaan mengenai ujian dan soal, langsung tanyakan kepada operasional yang mengawasi atau lecturer jika ada
+- siswa boleh membuka website dan referensi lainnya selama ujian sesuai ketentuan yang berlaku
+- jawaban soal akan dikumpulkan di dalam repositori ini dengan sistem ***pull request*** dan siswa wajib mengirim ***link*** dari ***Forked Repositoy*** ke alamat email berikut ini :<br>
+to : operational@purwadhika.com <br>
+subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
+
+## Exam Guide
+- sebelum mengerjakan soal, Fork repositori ini
+![guide_1](./assets/guide_01.jpg)
+- kemudian clone repositori hasil Forked ke komputer kalian dengan cara copy link forked respository anda
+![guide_2](./assets/guide_02.jpg)
+- buka terminal atau cmd dengan mengarah pada folder tempat anda akan menyimpan hasil clone dari repositori yang sudah anda forked, kemudian jalankan perintah ```git clone``` dan paste link forked repository anda
+
+    ``` C:\data\alee> git clone http://github.com/alee/...```
+
+- pindah ke direktori folder hasil git clone dengan cara
+
+    ``` C:\data\alee> cd nama-forked-repository ``` 
+
+- lalu buatlah sebuah branch baru tempat anda akan mengerjakan soal ujian
+
+    ``` C:\data\alee\ujian> git checkout -b NAMA-JCWM15 ```
+
+- bukalah code editor anda atau vscode : 
+
+    ``` C:\data\alee\ujian> code . ```
+
+- pastikan anda berada dibranch yang baru anda buat dengan cara lihat di pojok kiri bawah vscode dan anda akan melihat nama branch yang baru anda buat
+- buatlah sebuah folder dengan nama : NAMA-ANDA-PROGRAM, e.x. ALEE-JCWM15
+![guide_3](./assets/guide_03.jpg)
+- kerjakanlah semua soal ujian didalam folder tersebut
+
+> NOTE : <br>
+> - jangan hapus file .gitignore dan file lainnya hasil dari clone baik di branch master atau di branch baru tempat anda mengerjakan soal
+> - jangan lakukan perubahan apapun di file .gitignore dana file original dari repositori ini
+
+## Pull Requset Guide
+- sebelum anda melakukan pull request ke repositori pusat (respository awal), pastikan bahwa semua file yang anda buat disimpan didalam satu folder (NAMA-ANDA-PROGRAM)
+
+- simpan perubahan yang terjadi di git dengan cara : git add nama-file atau git add . untuk menyimpan semua perubahan yang terjadi sekaligus
+- kemudian lakukan commit : git commit -m "masukan pesan commit, ex. alee : ujian fundamental JCWM15"
+- push branch baru tempat anda mengerjakan soal : ``` git push origin nama-branch ```
+- buka github anda dan lihat repository hasil forked anda. PASTIKAN!, bahwa branch yang ada push sudah ada di github
+- jika sudah ada, maka akan ada warning untuk melakukan ```compare & pull request```
+![guide_4](./assets/guide_04.jpg)
+- lakukan pull request dan pastikan bahwa
+    1. HEAD repository berasal dari repository kalian dan branch berasal dari branch tempat anda mengerjakan soal, BASE respository menuju repository asal dan branch master
+    2. beri informasi pull request berupa : nama-program-EXAM_FUNDAMENTAL, 
+    <br>e.x. : alee-JCWM15-EXAM_FUNDAMENTAL
+
+    ![guide_5](./assets/guide_05.jpg)
+
+- jika pull request berhasil dan tidak terjadi konflik maka akan muncul info berikut ini
+![gudie_6](./assets/guide_06.jpg)
+
+## Selamat Mengerjakan Ujian ☺.
