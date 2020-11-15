@@ -21,9 +21,13 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
 
 ## Exam Guide
 - sebelum mengerjakan soal, lakukan ***Fork*** untuk repositori ini
-![guide_1](./assets/guide_01.jpg)
+
+    ![guide_1](./assets/guide_01.jpg)
+
 - kemudian *clone* repositori hasil *Forked* ke komputer kalian dengan cara *copy link forked respository* anda
-![guide_2](./assets/guide_02.jpg)
+
+    ![guide_2](./assets/guide_02.jpg)
+
 - buka terminal atau *cmd* dengan mengarah pada folder tempat anda akan menyimpan hasil *clone* dari repositori yang sudah anda *forked*, kemudian jalankan perintah ```git clone``` dan *paste link forked repository* anda
 
     ``` C:\data\alee> git clone http://github.com/alee/...```
@@ -42,7 +46,9 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
 
 - pastikan anda berada di-*branch* yang baru anda buat dengan cara lihat dipojok kiri bawah *vscode* dan anda akan melihat nama *branch* yang baru anda buat atau anda bisa menggunakan perintah : ``` git branch ``` di terminal atau cmd untuk menlihat semua daftar *branch* yang ada di folder *project* anda, *branch* yang dipakai saat ini ditandai dengan warna hijau dan *nama-*branch*
 - buatlah sebuah folder dengan nama : NAMA-ANDA-PROGRAM, e.x. ALEE-JCWM15
-![guide_3](./assets/guide_03.jpg)
+    
+    ![guide_3](./assets/guide_03.jpg)
+
 - kerjakanlah semua soal ujian didalam folder tersebut
 
 > **NOTE** : <br>
@@ -56,15 +62,18 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
 - *push branch* baru tempat anda mengerjakan soal : ``` git push origin nama-branch ```
 - buka GitHub anda dan lihat repositori hasil *forked* anda. **PASTIKAN!** bahwa *branch* yang ada *push* sudah ada di GitHub
 - jika sudah ada, maka akan ada *warning* untuk melakukan ```compare & pull request```
-![guide_4](./assets/guide_04.jpg)
+    
+    ![guide_4](./assets/guide_04.jpg)
+
 - lakukan *pull request* dan pastikan bahwa
     1. **HEAD repository** berasal dari repositori kalian dan **branch** berasal dari *branch* tempat anda mengerjakan soal, **BASE respository** menuju repositori asal dan *branch* **master**
     2. beri informasi *pull request* berupa : nama-program-EXAM_FUNDAMENTAL
     <br>e.x. : alee-JCWM15-EXAM_FUNDAMENTAL
-
+    
     ![guide_5](./assets/guide_05.jpg)
 
 - jika *pull request* berhasil dan tidak terjadi konflik maka akan muncul info berikut ini
-![gudie_6](./assets/guide_06.jpg)
+    
+    ![gudie_6](./assets/guide_06.jpg)
 
 ## Selamat Mengerjakan Ujian ☺
