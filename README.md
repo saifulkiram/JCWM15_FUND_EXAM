@@ -67,4 +67,4 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
 - jika *pull request* berhasil dan tidak terjadi konflik maka akan muncul info berikut ini
 ![gudie_6](./assets/guide_06.jpg)
 
-## Selamat Mengerjakan Ujian ☺.
+## Selamat Mengerjakan Ujian ☺
