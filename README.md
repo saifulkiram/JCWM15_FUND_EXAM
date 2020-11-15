@@ -43,7 +43,7 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
     ``` C:\data\alee\ujian> code . ```
 
 - pastikan anda berada di-*branch* yang baru anda buat dengan cara lihat dipojok kiri bawah *vscode* dan anda akan melihat nama *branch* yang baru anda buat atau anda bisa menggunakan perintah : ``` git branch ``` di terminal atau cmd untuk melihat semua daftar *branch* yang ada di folder *project* anda, *branch* yang dipakai saat ini ditandai dengan warna hijau dan *nama-*branch*
-- buatlah sebuah folder dengan nama : NAMA-ANDA-PROGRAM, e.x. ALEE-JCWM15
+- buatlah sebuah folder dengan nama : NAMA-ANDA-PROGRAM, e.x. ALEE-JCWM15 <br>
     ![guide_3](./assets/guide_03.jpg)
 
 - kerjakanlah semua soal ujian didalam folder tersebut
@@ -58,7 +58,7 @@ subject : JCWM15-JKT-UJIAN_FUNDAMENTAL
 - kemudian lakukan ```commit``` : ```git commit -m "masukan pesan commit"```, e.x. "alee : ujian fundamental JCWM15"
 - *push branch* baru tempat anda mengerjakan soal : ``` git push origin nama-branch ```
 - buka GitHub anda dan lihat repositori hasil *forked* anda. **PASTIKAN!** bahwa *branch* yang anda *push* sudah ada di GitHub
-- jika sudah ada, maka akan ada *warning* untuk melakukan ```compare & pull request```
+- jika sudah ada, maka akan ada *warning* untuk melakukan ```compare & pull request``` <br>
     ![guide_4](./assets/guide_04.jpg)
 
 - lakukan *pull request* dan pastikan bahwa
