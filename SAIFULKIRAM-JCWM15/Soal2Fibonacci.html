@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DERET FIBONANCI</h1>
+    <input id="masukan" type="text">Masukan angka
+    <br>
+    <button onclick="tampilkan()">SHOW</button>
+    <button onclick="tambahkanganjil()">GANJIL</button>
+    <button onclick="tambahkangenap()">GENAP</button>
+    <h1>RESULT:</h1>
+    <br>
+    <p id="tampilan"></p>
+    
+</body>
+<script>
+
+    let fibonanci =[]
+    let input = parseInt(document.getElementById("masukan").value)
+    for (i=2; i<=input; i++){
+        fibonanci.push((i-1)+(i-2))
+
+    }
+    let show = getElementById("tampilan")
+    function tampilkan(){
+        show.innerHTML = `${fibonanci}`
+    }
+    function tambahkanganjil(){
+        
+    }
+</script>
+
+</html>

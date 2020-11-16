@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soal 3  Form User</title>
+</head>
+<style>
+    table, tr, td, th {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 15px;
+    }
+
+    td {
+        text-align: center;
+    }
+</style>
+<body>
+    <h1>FORM USERS</h1>
+    <br>
+    
+    <!--input username-->
+    <input id="inputusername" type="text" placeholder="username">
+
+   <!--input email-->
+    <input id="inputemail" type="text" placeholder="email"> role
+
+    <!--tombol pilih role-->
+    <select id="newrole">
+        <option value="user">user</option>
+        <option value="admin">admin</option>
+    </select>
+    <br>
+    <br>
+
+    <!--tombol tambah user-->
+    <button id="tambahuser" onclick="addusser()">ADD USER</button>
+    <br>
+    <br>
+    <h1>USERS DATA</h1>
+    <br>
+    <table id="daftaruser">
+        <thead>
+        <tr>
+            <th>No</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Action</th>
+        </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+</body>
+<script>
+    let databaseuser = [
+        {
+            nomor : 1,
+            username : "Eunha",
+            email : "eunha@gfriend.com",
+            role : "admin"
+        },
+        {
+            nomor : 2,
+            username : "SinB",
+            email : "sinb@gfriend.com",
+            role : "user"
+        },
+        {
+            nomor : 3,
+            username : "Yuju",
+            email : "yuju@gfriend.com",
+            role : "user"
+        }
+    ]
+
+    class user {
+        constructor (nomor,username,email,role){
+            this.nomor = nomor,
+            this.username = username,
+            this.email = email,
+            this.role = role
+        }
+    }
+
+    function listdatabaseuser (ini){
+        let isi = document.getElementsByTagName("tbody")[0]
+
+        let show = ""
+        for (let a = 0; a<databaseuser.length; a++){
+            if (ini === a){
+                show +=`
+                <tr>
+                    <td></td>
+                    <td>
+                        <input id="rubahusername" type="text" placeholder="username" value="${databaseuser[a].username}">
+                    </td>
+                    <td>
+                        <input id="rubahemail" type="text" placeholder="email" value="${databaseuser[a].email}">
+                    </td>
+                    <td>
+                        <select id="rubahrole">
+                            <option value="user">user</option>
+                            <option value="admin">admin</option>
+                        </select>
+                    </td>
+                    <td>
+                        <button onclick="simpanperubahan(${a})">SAVE</button>
+                        <button onclick="batalkanperubahan()">CANCEL</button>
+                    </td> 
+                </tr>
+                `
+            }
+            else {
+                show +=`
+                <tr>
+                    <td>${a+1}</td>    
+                    <td>${databaseuser[a].username}</td>
+                    <td>${databaseuser[a].email}</td>
+                    <td>${databaseuser[a].role}</td>
+                    <td>
+                        <button onclick="perubahan(${a})">EDIT</button>
+                        <button onclick="hapus(${a})"> DELETE</button>
+                    </td>
+                </tr>
+                `
+            }
+
+        }
+        isi.innerHTML = show
+    }
+
+    listdatabaseuser()
+
+    //function nambahin user
+    function addusser(){
+        let username = document.getElementById("inputusername")
+        let email = document.getElementById("inputemail")
+        let role = document.getElementById("newrole")
+
+        if ( username === `` && email === ``){
+            alert ("Input harus di isi")
+        }
+        else{databaseuser.push(new user(
+            databaseuser.length +1,
+            username.value,
+            email.value,
+            role.value
+        )
+        )}
+
+        
+        listdatabaseuser()
+    }
+
+    // function edit user
+    function perubahan(isi){
+        listdatabaseuser(isi)
+    }
+
+    //function save edited user
+    function simpanperubahan(ini){
+
+        let rubahUsername = document.getElementById("rubahusername").value
+        let rubahEmail = document.getElementById("rubahemail").value
+        let rubahRole = document.getElementById("rubahrole").value
+
+        databaseuser[ini].username = rubahUsername
+        databaseuser[ini].email = rubahEmail
+        databaseuser[ini].role = rubahRole
+
+        listdatabaseuser()
+    }
+
+    // function delete user
+    function hapus (isi){
+        databaseuser.splice(isi, 1)
+        listdatabaseuser()
+    }
+
+    //function batal kanedit
+    function batalkanperubahan(){
+        listdatabaseuser()
+    }
+
+
+</script>
+</html>
