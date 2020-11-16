@@ -10,7 +10,7 @@ Sebelum mengerjakan ujian, bacalah dengan seksama aturan serta panduan dalam men
     - 10 menit untuk *setup*
     - 3 jam mengerjakan soal
     - 10 menit *pull request*
-- selama mengerjakan ujian, siswa wajib menyalakan **video** di **zoom** (khusus untuk kelas online) sampai ujian selesai
+- selama mengerjakan ujian, siswa wajib **men-share seluruh screen** di **zoom** (khusus untuk kelas online) sampai ujian selesai
 - dilarang bekerjasama dalam mengerjakan soal ujian
 - dilarang memberikan jawaban atau meminta jawaban dari teman atau pihak lain
 - jika ada pertanyaan mengenai ujian dan soal, langsung tanyakan kepada operasional selaku pengawas ujian atau *lecturer* yang mengawasi
